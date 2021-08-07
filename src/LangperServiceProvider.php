@@ -50,7 +50,7 @@ class LangperServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'langper');
+        //$this->mergeConfigFrom(__DIR__.'/../config/config.php', 'langper');
 
         // Register the main class to use with the facade
         $this->app->singleton('langper', function () {
